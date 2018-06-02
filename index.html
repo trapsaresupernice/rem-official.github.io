@@ -1,0 +1,178 @@
+<!-- REM-OFFICIAL.GITHUB.IO -->
+<!-- Baked by lee.wp14 (https://leewp14.gitlab.io) using his 100% homemade yet organic recipe :3 -->
+<!-- Found bugs? Kindly join our Discord support server (https://discord.gg/ZcZ7b49) and report to @lee.wp14 :smile: -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>REM Official</title>
+    <meta property="og:site_name" content="rem official" />
+    <meta property="og:title" content="Rem#3127 - A Discord bot" />
+    <meta property="og:description" content="Rem's Official website. Cheers. " />
+    <meta property="og:url" content="https://rem-official.github.io" />
+    <meta property="og:image" content="https://rem-official.github.io/assets/img/icon.webp" />
+    <link rel="manifest" href="assets/config/manifest.json">
+    <meta name="description" content="Rem #3127 - A Discord bot, built with ❤ by DigitalEntry#0001" />
+    <meta name="theme-color" content="#c342ff" />
+    <meta name="google-site-verification" content="BRPX-9C41JBOrohOakkA_kqc_pRGqSZlepq_W6FYwlo" />
+    <link rel="icon" type="image/png" href="assets/img/icon.webp" sizes="32x32">
+    <link rel="canonical" href="https://rem-official.github.io/">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500|Rajdhani" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- <link type="text/css" rel="stylesheet" media="screen" href="assets/css/jquery-sakura.min.css" /> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64243736-7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-64243736-7');
+    </script>
+    <link rel="import" href="assets/bower_components/serviceworker-helpers/sw-update-toast.html">
+</head>
+
+<body>
+    <script>
+        var bgMusicArray = ['https://raw.githubusercontent.com/leewp14/temp/master/AmaLee%20-%20STYX%20HELIX.webm'];
+        var bgMusicLoop = true;
+
+        var isMusicPlayed = false;
+        var music = document.createElement('AUDIO');
+        if(bgMusicLoop){
+            music.setAttribute('loop','');
+        }
+            for(var i=0;i<bgMusicArray.length;i++){
+            var x = document.createElement('SOURCE');
+            x.setAttribute('src',bgMusicArray[i]);
+            x.setAttribute('type','audio/mpeg');
+            music.appendChild(x);
+        }
+
+        function bgMusic(){
+            if(!isMusicPlayed){
+                music.play().then(function(){
+                    document.getElementById('bgMusic').classList.remove('icon-volume-mute2');
+                    document.getElementById('bgMusic').classList.add('icon-volume-medium');
+                    document.getElementById('bgMusic').style.opacity = '0.7';
+                    isMusicPlayed = true;
+                });
+            }else if(isMusicPlayed){
+                music.pause();
+                document.getElementById('bgMusic').classList.remove('icon-volume-medium');
+                document.getElementById('bgMusic').classList.add('icon-volume-mute2');
+                document.getElementById('bgMusic').style.opacity = '0.3';
+                isMusicPlayed = false;
+            }
+        }
+    </script>
+    <div id="viewport-shadow">
+        <div id="main">
+            <div id="main-navbar">
+                <a href="docs/" class="main-navbar-link">Documentation</a>
+                <a href="https://discordbots.org/bot/413385786344472576/vote" class="main-navbar-link" target="noopener">Vote</a>
+                <a href="/" id="main-navbar-title">REM</a>
+                <a href="https://discordapp.com/oauth2/authorize?client_id=413385786344472576&scope=bot&permissions=504687831" class="main-navbar-link"
+                    target="noopener">Invite</a>
+                <a href="docs/#/partnership" class="main-navbar-link">Partnership</a>
+                <span id="bgMusic" onclick="bgMusic()" class="main-content-container-sub-icon icon icon-volume-mute2"></span>
+            </div>
+            <div id="main-cover">
+                <div id="main-cover-ident">
+                    <div id="main-cover-ident-text">
+                        <a id="main-cover-ident-text-1-2" href="https://discordbots.org/bot/413385786344472576" target="noopener">
+                            <h1 id="main-cover-ident-text-1">Rem
+                                <label id="main-cover-ident-text-1-1">#3127</label>
+                            </h1>
+                        </a>
+                        <h2 id="main-cover-ident-text-2">A Discord bot, built with ❤ by
+                            <a id="main-cover-ident-text-2-1" href="https://discordbots.org/user/283236977602592778" target="noopener">DigitalEntry#0001</a>
+                        </h2>
+                        <div id="main-cover-ident-text-button">
+                            <a href="https://discordapp.com/oauth2/authorize?client_id=413385786344472576&scope=bot&permissions=504687831" target="noopener">
+                                <button id="main-cover-ident-text-button-1">INVITE</button>
+                            </a>
+                            <a href="#features">
+                                <button id="main-cover-ident-text-button-2">FEATURES</button>
+                            </a>
+                            <a href="docs/">
+                                <button id="main-cover-ident-text-button-3">DOCUMENTATION</button>
+                            </a>
+                        </div>
+                    </div>
+                    <a id="main-cover-ident-favicon-1" href="https://discordapp.com/oauth2/authorize?client_id=413385786344472576&scope=bot&permissions=504687831"
+                        target="noopener">
+                        <img id="main-cover-ident-favicon" src="assets/img/icon.webp" alt="favicon" title="Invite me to your server!">
+                    </a>
+                </div>
+            </div>
+            <div id="main-content-1" class="main-content">
+                <a name="features">
+                    <label class="main-content-title">NEW UPDATE</label>
+                </a>
+                <label class="main-content-subtitle">Rem V2 released - she's getting much clever!</label>
+            </div>
+            <div id="main-content-2" class="main-content">
+                <a name="features">
+                    <label class="main-content-title">FEATURES</label>
+                </a>
+                <label class="main-content-subtitle">Curiosity kills the cat, so let's see what Rem has :3</label>
+                <div class="main-content-container">
+                    <div class="main-content-container-sub">
+                        <span class="main-content-container-sub-icon icon icon-coin-yen"></span>
+                        <label>Economy System</label>
+                    </div>
+                    <div class="main-content-container-sub">
+                        <span class="main-content-container-sub-icon icon icon-users"></span>
+                        <label>Moderation Features</label>
+                    </div>
+                    <div class="main-content-container-sub">
+                        <span class="main-content-container-sub-icon icon icon-glass"></span>
+                        <label>Fun Commands</label>
+                    </div>
+                </div>
+            </div>
+            <div id="main-content-3" class="main-content">
+                <a name="features" style="align-items:center; display:flex; flex-direction:column;">
+                    <label class="main-content-title" style="width:90%;">It's Rem Revolution. </label>
+                </a>
+                <label class="main-content-subtitle">Why wait? Invite me now!</label>
+            </div>
+        </div>
+    </div>
+    <!-- <audio src="https://raw.githubusercontent.com/leewp14/temp/master/AmaLee%20-%20STYX%20HELIX.webm" autoplay loop></audio> -->
+    <!-- <script src="assets/js/jquery-sakura.min.js"></script>
+    <script defer>
+        // domReady
+        $(function () {
+            $('body').sakura();
+        });
+
+        // windowLoad
+        $(window).on('load', function () {
+            $('body').sakura();
+        });
+    </script> -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then(function () {
+                    if (navigator.storage && navigator.storage.persist) {
+                        navigator.storage.persist().then(granted => {
+                        });
+                    }
+                }), function () {
+                    // console.log('CLIENT: service worker registration failure.');
+                };
+        } else {
+            // console.log('CLIENT: service worker is not supported.');
+        };
+    </script>
+    <sw-update-toast button-label='RELOAD'></sw-update-toast>
+</body>
+
+</html>

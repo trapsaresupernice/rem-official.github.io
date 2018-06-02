@@ -1,0 +1,19 @@
+{
+  "short_name": "Rem",
+  "name": "REM Official",
+  "icons": [
+    {
+      "src": "../img/icon.webp",
+      "type": "image/png",
+      "sizes": "322x322"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f5f5f5",
+  "theme_color": "#f5f5f5",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "en-US",
+  "description": "Rem's Official web app. Cheers!",
+  "scope": "/"
+}
