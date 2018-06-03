@@ -6,7 +6,7 @@ Partner servers (with a guild size of >125) and bots will be listed on Rem's web
 ## Partners
 > PARTNER SERVER
 
-> - [Tokyo ghoul & Naruto](https://discord.gg/eEdwjEB)
+> - [♥The Otaku Hangout♥](https://discord.gg/eEdwjEB)
 
 > - [/r/NewGame](https://discord.gg/ZWW5CJw)
 
@@ -54,4 +54,4 @@ If you see your server/bot fulfilled all the above requirements, feel free to jo
 The information provided is subjected to change without prior notice. 
 
 
-Last Updated : MAY 18 (GMT+8)
+Last Updated : JUN 03 (GMT+8)
