@@ -35,3 +35,14 @@ self.addEventListener("activate", function (event) {
     );
     return self.clients.claim();
 });
+
+navigator.serviceWorker.getRegistrations().then(
+
+    function(registrations) {
+
+        for(let registration of registrations) {  
+            registration.unregister();
+
+        }
+
+});
