@@ -18,8 +18,6 @@ Partner servers (with a guild size of >125) and bots will be listed on Rem's web
 
 > - [Zero Two#0620](https://discordapp.com/api/oauth2/authorize?client_id=428786590656102400&permissions=2146954435&scope=bot)
 
-> - [Proximity#1729](https://discordapp.com/api/oauth2/authorize?client_id=436267894586998791&permissions=8&scope=bot)
-
 ## Requirements
 In order to be eligible of being a Rem's partner server/bot, the following requirements must be fulfilled: 
 > SERVER PARTNERSHIP
@@ -54,4 +52,4 @@ If you see your server/bot fulfilled all the above requirements, feel free to jo
 The information provided is subjected to change without prior notice. 
 
 
-Last Updated : JUN 03 (GMT+8)
+Last Updated : JUN 06 (GMT+8)
