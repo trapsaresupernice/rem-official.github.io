@@ -10,6 +10,8 @@ Partner servers (with a guild size of >125) and bots will be listed on Rem's web
 
 > - [/r/NewGame](https://discord.gg/ZWW5CJw)
 
+> - [From Another Universe](https://discord.gg/DzjbWWr)
+
 <a></a>
 
 > PARTNER BOTS
@@ -52,4 +54,4 @@ If you see your server/bot fulfilled all the above requirements, feel free to jo
 The information provided is subjected to change without prior notice. 
 
 
-Last Updated : JUN 06 (GMT+8)
+Last Updated : JUN 07 (GMT+8)
