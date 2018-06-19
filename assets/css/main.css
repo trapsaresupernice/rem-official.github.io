@@ -108,7 +108,7 @@ body{
 /* Content */
 #content{
     width: 100%;
-    height: calc(100% - 61px);
+    height: calc(100vh - 61px);
     background: #07125aad;
     display: flex;
 }
